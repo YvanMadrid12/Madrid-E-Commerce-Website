@@ -1,0 +1,66 @@
+<!doctype HTML>
+<HTML lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Webpage</title>
+	<link rel="stylesheet" href="AboutUs.css"> <!-- Assuming external CSS file -->
+</head>
+<body class="ContactUs">
+    <header>
+        <div class="logo">
+            <hr>
+            <center>
+                <h1 style="font-family: 'Times New Roman';"> CONTACT US </h1>
+            </center>
+            <hr>
+            <br>
+            <center>
+                <img src="logo.jpg" width="230" height="150">
+            </center>
+            <br>
+            <br>
+        </div>
+        <center>
+            <b>
+            <nav class="navbar">
+                <a href="home.html" style="font-family: 'Tahoma';">Home</a> |
+                <a href="product.html" style="font-family: 'Tahoma';">Products</a> |
+                <a href="AboutUs.html" style="font-family: 'Tahoma';">About Us</a> |
+                <a href="ContactUs.html" style="font-family: 'Tahoma';">Contact Us</a> |
+                <a href="Index.html" style="font-family: 'Tahoma';">Index</a>
+            </b>
+            </nav>
+        </center>
+    </header>
+    <br>
+    <br>
+    <center>
+        <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d663.1786230590404!2d121.1415759233577!3d14.574427421449368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c76f2657279d%3A0xe79b979ee7ff82d4!2sSitio%20Pantayin%20St%2C%20Taytay%2C%201920%20Rizal!5e0!3m2!1sen!2sph!4v1709371975462!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </center>
+	<center>
+    <p class="inquiry"><b>FOR INQUIRIES</b></p>
+    <p class="email">Email: yvan.madrid12@gmail.com</p>
+    <p class="number">Number: 09694748970</p>
+    <p class="location"><b>LOCATION</b></p>
+    <p class="address">Address: Sitio Pantayin St, Taytay, Rizal</p>
+	</center>
+	<center>
+	<hr>
+    <h2>CONTACT FORM</h2>
+    <hr>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message: </label>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+	</center>
+</body>
+</HTML>

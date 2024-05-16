@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="home">
+    <header>
+        <br>
+        <hr>
+        <center>
+            <font face="Copper" size="100" color="black"><b>Likha Co. E-Commerce Hub</b></font>
+        </center>
+		<style>
+        body {
+            background-image: url('home.jpg');
+            background-size: cover; /* This will stretch or fit the image to cover the entire body */
+        }
+		</style>
+        <hr>
+        <br>
+        <center>
+            <img src="logo.jpg" width="230" height="150">
+        </center>
+        <br>
+        <br>
+        <nav class="navbar">
+		<center>
+            <b>
+                <a href="home.html">Home</a> |
+                <a href="product.html">Products</a> |
+                <a href="AboutUs.html">About Us</a> |
+                <a href="ContactUs.html">Contact Us</a> |
+                <a href="Index.html">Index</a>
+            </b>
+		</center>
+        </nav>
+        <br>
+    </header>
+    <section>
+        <div class="main-image">
+        </div>
+        <article>
+		<center>
+            <p class="description">
+                "Elevate your style naturally with Likha's Company, Where Fashion Meets<br>
+                Sustainability, weaving timeless beauty into every carry."
+            </p>
+		</center>
+        </article>
+        <aside>
+            <center>
+                <h2>CONTACT FORM</h2>
+                <hr>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="message">Message: </label>
+                    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </center>
+        </aside>
+    </section>
+    <footer>
+        <center>
+            <p>&copy; 2023 Likha Co. All rights reserved.</p>
+        </center>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

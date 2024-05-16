@@ -1,0 +1,47 @@
+body {
+    background-image: url('rattan3.jpg');
+    background-size: cover
+}
+
+header, nav, section, article, aside, footer {
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0; /* Increased top padding from 10px to 20px */
+    text-align: center;
+}
+
+.navbar a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.logo img, .main-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.description {
+    font-family: 'Bedrock';
+    font-size: 50px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+}

@@ -1,0 +1,159 @@
+<!doctype HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Webpage</title>
+    <link rel="stylesheet" href="Product.css">
+</head>
+<body class="Product">
+    <header>
+        <div class="logo">
+        </div>
+        <hr>
+		<center>
+        <h1>LIKHA CO. PRODUCTS</h1>
+		</center>
+        <hr>
+        <br>
+		<center>
+        <nav class="navbar">
+            <a href="home.html">Home</a> |
+            <a href="product.html">Products</a> |
+            <a href="AboutUs.html">About Us</a> |
+            <a href="ContactUs.html">Contact Us</a> |
+            <a href="Index.html">Index</a>
+		<br>
+        </nav>
+		</center>
+    </header>
+    <div class="products">
+        <br>
+        <table>
+            <tr>
+                <th>PRODUCT</th>
+                <th>PRICE</th>
+                <th>BUY NOW</th>
+                <th>PRODUCT</th>
+                <th>PRICE</th>
+                <th>BUY NOW</th>
+                <th>PRODUCT</th>
+                <th>PRICE</th>
+                <th>BUY NOW</th>
+            </tr>
+            <tr>
+                <td class="product-cell">
+                    <div class="product-content">
+                        <img src="6.jpg" alt="Messenger Bag"><br><br>
+                        <b>Jap's Collection:</b><br>Messenger Bag<br><br>
+                        <select>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </td>
+                <td><b>Php.899.00</b></td>
+                <td><button>Add to cart</button></td>
+                
+                <td class="product-cell">
+                    <div class="product-content">
+                        <img src="4.jpg" alt="Baguette Bag"><br><br>
+                        <b>Jap's Collection:</b><br>Baguette Bag<br><br>
+                        <select>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </td>
+                <td><b>Php.1,299.00</b></td>
+                <td><button>Add to cart</button></td>
+
+                <td class="product-cell">
+                    <div class="product-content">
+                        <img src="5.jpg" alt="Quilted Bag"><br><br>
+                        <b>Jap's Collection:</b><br>Quilted Bag<br><br>
+                        <select>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </td>
+                <td><b>Php.699.00</b></td>
+                <td><button>Add to cart</button></td>
+            </tr>
+            <tr>
+                <td class="product-cell">
+                    <div class="product-content">
+                        <img src="2.jpg" alt="Sachel Bag"><br><br>
+                        <b>Yvan's Collection:</b><br>Sachel Bag<br><br>
+                        <select>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </td>
+                <td><b>Php.899.00</b></td>
+                <td><button>Add to cart</button></td>
+                
+                <td class="product-cell">
+                    <div class="product-content">
+                        <img src="3.jpg" alt="Duffel Bag"><br><br>
+                        <b>Yvan's Collection:</b><br>Duffel Bag<br><br>
+                        <select>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </td>
+                <td><b>Php.1,299.00</b></td>
+                <td><button>Add to cart</button></td>
+
+                <td class="product-cell">
+                    <div class="product-content">
+                        <img src="1.jpg" alt="Bucket Bag"><br><br>
+                        <b>Yvan's Collection:</b><br>Bucket Bag<br><br>
+                        <select>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </td>
+                <td><b>Php.699.00</b></td>
+                <td><button>Add to cart</button></td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <center>
+        <h2>CONTACT FORM</h2>
+        <hr>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message: </label>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </center>
+</body>
+</html>

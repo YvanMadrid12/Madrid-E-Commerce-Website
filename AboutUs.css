@@ -1,0 +1,59 @@
+body {
+    background-color: #D2B48C;
+}
+
+body.AboutUs {
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Times New Roman";
+}
+
+.navbar a {
+    font-family: "Tahoma";
+    margin: 0 10px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+table th, table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    font-family: "Tahoma";
+}
+
+table h1, table h3 {
+    margin: 0;
+}
+
+form label {
+    font-family: "Tahoma";
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    width: 30%;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}

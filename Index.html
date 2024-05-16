@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Webpage</title>
+    <link rel="stylesheet" href="Index.css">
+</head>
+<body class="Index">
+    <header>
+        <center>
+            <hr>
+            <h1>Likha Co. E-Commerce Hub</h1>
+            <hr>
+            <center><img src="logo.jpg" width="230" height="150"></center>
+        </center>
+    </header>
+    <br>
+    <center>
+        <nav class="navbar">
+            <b>
+                <a href="home.html">Home</a> |
+                <a href="product.html">Products</a> |
+                <a href="AboutUs.html">About Us</a> |
+                <a href="ContactUs.html">Contact Us</a> |
+                <a href="Index.html">Index</a>
+            </b>
+            <br><br>
+        </nav>
+        <video width="1200" height="500" controls autoplay loop muted>
+            <source src="LikhaCo.ads.mp4" type="video/mp4">
+        </video>
+        <br><br>
+        <audio controls>
+            <source src="Audio.mp3" type="audio/mp3">
+        </audio>
+    </center>
+    <div class="container">
+        <hr>
+        <center><h1>Likha Co.'s Featured Products</h1></center>
+        <center>
+            <table border="1" cellpadding="10">
+                <hr><br>
+                <tr>
+                    <th><h2>Product</h2></th>
+                    <th><h2>Description</h2></th>
+                </tr>
+                <tr>
+                    <td><img src="1.jpg" width="250" height="250"></td>
+                    <td>These rattan bags have earned the title of our best sellers. Not only are they competitively priced as the most inexpensive options in our collection, but they also boast high-quality craftsmanship that sets them apart.</td>
+                </tr>
+                <tr>
+                    <td><img src="2.jpg" width="250" height="250"></td>
+                    <td>This choice of robust material not only enhances the bags' firmness but also ensures they stand up to daily wear and tear. The result is a collection of resilient and long-lasting accessories that seamlessly blend durability with natural elegance.</td>
+                </tr>
+                <tr>
+                    <td><img src="3.jpg" width="250" height="250"></td>
+                    <td>This choice of robust material not only enhances the bags' firmness but also ensures they stand up to daily wear and tear. The result is a collection of resilient and long-lasting accessories that seamlessly blend durability with natural elegance.</td>
+                </tr>
+            </table>
+        </center>
+        <br><hr>
+    </div>
+    <center>
+        <h2>CONTACT FORM</h2>
+        <hr>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message: </label>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <hr>
+    </center>
+</body>
+</html>

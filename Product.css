@@ -1,0 +1,99 @@
+body {
+    background-color: #D2B48C;
+}
+
+body.Product {
+}
+
+header {
+    text-align: center;
+}
+
+.logo {
+    /* Add styles for logo here */
+}
+
+hr {
+    margin: 20px 0;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+}
+
+.navbar a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.products {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: top; /* Ensures text aligns properly with images */
+}
+
+td.product-cell {
+    height: 400px; /* Adjust height as needed */
+}
+
+.product-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+img {
+    width: 300px; /* Adjust width as needed */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Centers the image */
+    margin: 0 auto; /* Centers the image */
+}
+
+button {
+    cursor: pointer;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    width: 30%;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
