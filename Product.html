@@ -5,27 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-commerce Webpage</title>
     <link rel="stylesheet" href="Product.css">
+    <style>
+        .center-text {
+            text-align: center;
+        }
+        .center-block {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
 </head>
 <body class="Product">
     <header>
-        <div class="logo">
-        </div>
+        <div class="logo"></div>
         <hr>
-		<center>
-        <h1>LIKHA CO. PRODUCTS</h1>
-		</center>
+        <h1 class="center-text">LIKHA CO. PRODUCTS</h1>
         <hr>
         <br>
-		<center>
-        <nav class="navbar">
+        <nav class="navbar center-text">
             <a href="home.html">Home</a> |
             <a href="product.html">Products</a> |
             <a href="AboutUs.html">About Us</a> |
             <a href="ContactUs.html">Contact Us</a> |
             <a href="Index.html">Index</a>
-		<br>
+            <br>
         </nav>
-		</center>
     </header>
     <div class="products">
         <br>
@@ -93,8 +99,8 @@
             <tr>
                 <td class="product-cell">
                     <div class="product-content">
-                        <img src="2.jpg" alt="Sachel Bag"><br><br>
-                        <b>Yvan's Collection:</b><br>Sachel Bag<br><br>
+                        <img src="2.jpg" alt="Satchel Bag"><br><br>
+                        <b>Yvan's Collection:</b><br>Satchel Bag<br><br>
                         <select>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -142,7 +148,7 @@
         </table>
     </div>
     <hr>
-    <center>
+    <div class="center-block">
         <h2>CONTACT FORM</h2>
         <hr>
         <form action="submit_form.php" method="post">
@@ -154,6 +160,6 @@
             <textarea id="message" name="message" rows="4" required></textarea><br><br>
             <input type="submit" value="Submit">
         </form>
-    </center>
+    </div>
 </body>
 </html>
